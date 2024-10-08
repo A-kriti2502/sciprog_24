@@ -1,0 +1,48 @@
+commit 3ee0ba6efbe1f32f8405335d6f40f23ae62ed708
+Author: Aakriti Abhay Singh <93913750+A-kriti2502@users.noreply.github.com>
+Date:   Wed Oct 9 01:41:59 2024 +0530
+
+    Update README.md for practical3
+
+commit b93d1022d6d125ce480ab054e2924cb8b32e42ea
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 21:00:42 2024 +0100
+
+    Added Practical 3 source files and README
+
+commit 81abf23f99cfc25b94280c2b6c5892bcdeaf9eb0
+Merge: 34dca60 67877ad
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 16:18:51 2024 +0100
+
+    Merge branch 'practical2'
+
+commit 67877ad4861fef7359ed8cc17f4ff8d23fd29ed4
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 16:17:31 2024 +0100
+
+    deleted gitlogoutput.txt and gitstatusoutput.txt
+
+commit 34dca60169445f7601088666dfd121ecb6d3c882
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 16:16:09 2024 +0100
+
+    changes in README.md
+
+commit 103d7315e525ed53cb257a68a37107a6b6572477
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 15:57:27 2024 +0100
+
+    Added Practical 2 source files and README
+
+commit 47e366a0ba9e8482c85d8a9fe17d16c737e93ff4
+Author: Aakriti Abhay Singh <aakritiannu@gmail.com>
+Date:   Tue Oct 8 13:29:21 2024 +0100
+
+    initialized Repository
+
+commit 6bb6843e13b1f38f8fb5fd22c9c3bfe1031e00f1
+Author: Aakriti Abhay Singh <93913750+A-kriti2502@users.noreply.github.com>
+Date:   Tue Oct 8 16:01:21 2024 +0530
+
+    Initial commit
