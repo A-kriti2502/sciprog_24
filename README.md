@@ -27,7 +27,7 @@ Practical questions of the course often focus on the implementation of **mathema
 11. `git add .`
 12. `git commit -m "add message"`
 13. `git push origin main`
-14. `git branch -b practicalx`
+14. `git checkout -b practicalx`
 15. `git pull origin practicalx` 
     - Download changes from the remote repository and merge them into your current branch
 16. `git fetch origin practicalx`
