@@ -38,21 +38,22 @@ In this practical session, I explored the concepts of **pointers** and **user in
   - The artanh1 function uses a series approximation, breaking when the terms are smaller than delta
   - The artanh2 function uses the direct formula for the inverse hyperbolic tangent.
   - The program compares the two methods over a range of values of x.
-## Formula for `artanh1` (Series Expansion):
+#### Formula for `artanh1` (Series Expansion):
 The first method approximates the inverse hyperbolic tangent (artanh) using the **Taylor series expansion**:
-
-\[
+```math
 \text{artanh}(x) = \sum_{n=0}^{\infty} \frac{x^{2n+1}}{2n+1}
-\]
+```
+
+
 
 This formula is valid for \( |x| < 1 \). In practical implementation, we sum the terms of the series up to a small error threshold (delta) to control the accuracy of the approximation.
 
-### Formula for `artanh2` (Logarithmic Identity):
+#### Formula for `artanh2` (Logarithmic Identity):
 The second method uses the **logarithmic identity** to compute the inverse hyperbolic tangent:
-
-\[
+```math
 \text{artanh}(x) = \frac{1}{2} \ln\left(\frac{1+x}{1-x}\right)
-\]
+```
+
 
 This formula provides an exact result and does not rely on an approximation like the series expansion.
 
@@ -80,6 +81,9 @@ To compile the program, use the following command:
 ```bash
 gcc -o file file.c -lm
 ```
+
+
+
 
 
 
