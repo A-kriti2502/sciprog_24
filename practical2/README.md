@@ -1,10 +1,10 @@
 # Practical 2: Floating Point Arithmetic and UNIX/Linux Overview
 
 ## Objective
-In this practical, we will explore floating point arithmetic and gain a foundational understanding of UNIX/Linux commands, particularly focusing on file transfer and compilation.
+In this practical, I explored floating point arithmetic and gain a foundational understanding of UNIX/Linux commands, particularly focusing on file transfer and compilation.
 
 ## File Transfer using SCP
-We used `scp` (secure copy protocol) to transfer files from Brightspace to my local computer, and then to the SCIPROG virtual machine (VM). The commands used for transferring the files are as follows:
+I used `scp` (secure copy protocol) to transfer files from Brightspace to my local computer, and then to the SCIPROG virtual machine (VM). The commands used for transferring the files are as follows:
 
 ```bash
 scp Conversion.c sp51@sciprog.training.ichec.ie:~/.

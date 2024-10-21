@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this practical, we extend our previous work by creating additional program blocks that utilize both material from last week’s practical and concepts discussed in this week’s lectures. The primary goal is to calculate the tangent values for angles in degrees and subsequently compute the area under the curve of tan(x)  from 0 to 60 degrees using the Trapezoidal Rule.
+In this practical, I extended my previous work by creating additional program blocks that utilize both material from last week’s practical and concepts discussed in this week’s lectures. The primary goal is to calculate the tangent values for angles in degrees and subsequently compute the area under the curve of tan(x)  from 0 to 60 degrees using the Trapezoidal Rule.
 
 ## Exercises
 
@@ -21,7 +21,7 @@ In this practical, we extend our previous work by creating additional program bl
 - **Objective**: Create a function or subroutine that calculates the area under the curve of tan(x) from 0 to 60 degrees using the Trapezoidal Rule.
 
 ### 3. Compilation Instructions
- When compiling the C program, use the following command to ensure that the math library is linked:
+ When compiling the C program,I used the following command to ensure that the math library is linked:
   ```bash
   gcc -o file file.c -lm
   ```

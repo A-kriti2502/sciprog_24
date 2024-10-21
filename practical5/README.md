@@ -73,13 +73,21 @@ This formula provides an exact result and does not rely on an approximation like
 To copy the source file from my local computer to the SciProg VM server, I used the following command:
 
 ```bash
-scp /Users/aakritiabhaysingh/Desktop/UCD/ICHEC/SciprogGit/practical3/file.c sp51@sciprog.training.ichec.ie:~/practical3/
+aakritiabhaysingh@AAKRITIs-MacBook-Pro SciprogGit % scp /Users/aakritiabhaysingh/Desktop/UCD/ICHEC/SciprogGit/practical5/fibonacci.c /Users/aakritiabhaysingh/Desktop/UCD/ICHEC/SciprogGit/practical5/Inverse_Hyperbolic.c sp51@sciprog.training.ichec.ie:~/practical5/
+
+sp51@sciprog.training.ichec.ie's password: 
+fibonacci.c                                                                                 100%  463    30.0KB/s   00:00    
+Inverse_Hyperbolic.c   
 ```
 
 To compile the program, use the following command:
 
 ```bash
-gcc -o file file.c -lm
+[sp51@sciprog ~]$ cd practical5
+[sp51@sciprog practical5]$ ls
+fibonacci.c  Inverse_Hyperbolic.c
+[sp51@sciprog practical5]$ gcc -o fibonacci fibonacci.c 
+[sp51@sciprog practical5]$ gcc -o Inverse_Hyperbolic Inverse_Hyperbolic.c -lm
 ```
 
 

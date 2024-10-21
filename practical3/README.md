@@ -1,7 +1,7 @@
 # Practical 3: Area Under the Curve Using the Trapezoidal Rule
 
 ## Overview
-In this practical, we calculate the area under the curve of the function using the **Trapezoidal Rule**. The goal is to approximate the integral of tan(x) from x = 0 to x = 𝜋/3 and compare the result with the exact solution:
+In this practical, I calculate the area under the curve of the function using the **Trapezoidal Rule**. The goal is to approximate the integral of tan(x) from x = 0 to x = 𝜋/3 and compare the result with the exact solution:
 
 $$
 \int_0^{\frac{\pi}{3}} \tan(x) \, dx = \log(2)
