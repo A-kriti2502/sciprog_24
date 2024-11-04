@@ -7,11 +7,11 @@ This practical focuses on using the `make` utility to manage the compilation of 
 ## Topics Covered
 
 ### 1. **Matrix Multiplication in C**
-- Implemented matrix multiplication for matrices \(C_{n \times q} = A_{n \times p} B_{p \times q}\).
-- Set matrix dimensions: \( n = 5 \), \( p = 3 \), and \( q = 4 \).
+- Implemented matrix multiplication for matrices C[n][q]  = A[n][p] B[p][q].
+- Set matrix dimensions: n = 5 , p = 3 , and q = 4.
 - Initialized matrices:
-  - **A** with values based on the sum of indices: \(A_{ij} = i + j\)
-  - **B** with values based on the difference of indices: \(B_{ij} = i - j\)
+  - **A** with values based on the sum of indices: A[i][j] = i + j
+  - **B** with values based on the difference of indices: B[i][j] = i - j
 - Performed matrix multiplication to compute the elements of matrix **C**, initialized to zero before calculations.
 - Displayed matrices **A**, **B**, and **C** to confirm correct output.
 
